@@ -6,7 +6,8 @@ public class raycastForward : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		//RaycastHit hit;
+		//https://docs.unity3d.com/ScriptReference/Physics.Raycast.html
+		//RaycastHit hit;可用來設定打到什麼
 		//float theDistance;
 
 		Vector3 forward = transform.TransformDirection (Vector3.forward);
