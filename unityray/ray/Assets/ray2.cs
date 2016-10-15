@@ -26,6 +26,7 @@ public class ray2 : MonoBehaviour {
 			Vector3 centerPoint =  (transform.position + hit.point) / 2;
 			// 繪出起點至中心點的紅色線段
 			Debug.DrawLine( transform.position, centerPoint, Color.red, 0.01f, false);
+			print ("這是一個牆壁");
 		}
 		if(Input.GetKey(KeyCode.D))
 		{
