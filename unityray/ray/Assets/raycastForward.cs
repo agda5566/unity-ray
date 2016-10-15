@@ -13,13 +13,13 @@ namespace raytest1{
 			//RaycastHit hit;可用來設定打到什麼
 			//float theDistance;
 
-			Vector3 forward = transform.TransformDirection (Vector3.forward);
+			Vector3 forward = transform.TransformDirection (Vector3.forward)*50;
 			//射線長度
 			Debug.DrawRay(transform.position,forward,Color.green);
 			//顯示射線
 			//10/7會有還沒接觸物體就印出字串的問題
 			//10/8更改以下if最後的數字就能減少誤差
-			if(Physics.Raycast(transform.position, forward, 1))
+			if(Physics.Raycast(transform.position, forward, 50))
 			{	//碰到物件顯示
 				//theDistance = hit.distance;
 				//print (theDistance + " 安安你好" + hit.collider.gameObject.name);
