@@ -2,6 +2,9 @@
 using System.Collections;
 
 public class ray2 : MonoBehaviour {
+
+	//https://gist.github.com/smallrice45/11321862
+	//https://docs.unity3d.com/ScriptReference/LayerMask.html
 	public float rayLength = 100;
 	// 射線擊中資訊
 	RaycastHit hit;
