@@ -11,8 +11,8 @@ public class testtp : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		transform.position = new Vector3(8, 0, 0);
-		print(transform.position.x);
+		//transform.position = new Vector3(8, 0, 0);
+		//print(transform.position.x);
 	}
 	/*void Example() {
 		transform.position = new Vector3(8, 0, 0);
