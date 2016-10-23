@@ -17,7 +17,8 @@ public class mousetest : MonoBehaviour {
 	void OnMouseDown ()
 	{
 		Debug.Log("12312");
-		transform.position = new Vector3(8, 0.92, 0);
+
+		transform.position = new Vector3(8,0.92f,0);
 		print(transform.position.x);
 	}
 
